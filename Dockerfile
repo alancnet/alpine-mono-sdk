@@ -28,9 +28,9 @@ RUN apk add --no-cache \
         lsof \
         htop
 
-ENV MONO_VERSION 4.8.0.495
-ENV PAKET_VERSION 3.35.3
-ENV NUGET_VERSION 3.5.0
+ENV MONO_VERSION 5.0.0.100
+ENV PAKET_VERSION 4.8.5
+ENV NUGET_VERSION 4.0.0-rc4
 
 COPY *.patch /mono-patch/
 
